@@ -21,12 +21,11 @@ NUM_IMAGES_PER_PROMPT = 1
 
     
 # Add your hugging face hub token here.
-os.environ['HUGGINGFACEHUB_API_TOKEN'] = "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"
+os.environ['HUGGINGFACEHUB_API_TOKEN'] = "Your_hub_API_KEY"
 
 def text2image(
     prompt: str,
     repo_id: Literal[
-        "mukaist/DALLE-4K",
         "prithivMLmods/Canopus-Realism-LoRA",
         "black-forest-labs/FLUX.1-dev",
         "SG161222/RealVisXL_V4.0_Lightning",
