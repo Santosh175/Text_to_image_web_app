@@ -15,8 +15,8 @@ To run this app locally, follow these steps:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/text-to-image-streamlit-app.git
-    cd text-to-image-streamlit-app
+    git clone https://github.com/Santosh175/Text_to_image_web_app.git
+    cd Text_to_image_web_app
     ```
 
 2. **Install the required packages:**
@@ -49,6 +49,8 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Contact
-For any questions or feedback, feel free to reach out to me on LinkedIn.
+For any questions or feedback, feel free to reach out to me on :- 
+[Linkedin](https://www.linkedin.com/in/santoshai/)
+[Mail](santoshkumarnawd@gmail.com)
 
 
