@@ -46,11 +46,11 @@ A special thanks to **Zhenna Lu** for the inspiration throughout this project! ð
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or suggestions.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License.
 
 ## Contact
 For any questions or feedback, feel free to reach out to me on :- 
 [Linkedin](https://www.linkedin.com/in/santoshai/)
-[Mail](santoshkumarnawd@gmail.com)
+[Mail](mailto:santoshkumarnawd@gmail.com)
 
 
