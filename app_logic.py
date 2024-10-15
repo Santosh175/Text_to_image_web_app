@@ -9,7 +9,7 @@ import requests
 from PIL import Image
 
 from diffusers import StableDiffusionXLPipeline, EulerAncestralDiscreteScheduler
-#from huggingface_hub import hf_hub_download
+
 
 
 seed = 2024
@@ -47,38 +47,6 @@ def text2image(
     image = Image.open(io.BytesIO(image_bytes))
     upscaled_image = image.resize((2048,2048))
 
-    '''if torch.cuda.is_available():
-        print("Using GPU")
-        pipeline = StableDiffusionPipeline.from_pretrained(
-            repo_id,
-            torch_dtype=torch.float16,
-            use_safetensors=True,
-        ).to("cuda")
-
-        pipe = StableDiffusionXLPipeline.from_pretrained(
-            repo_id,
-            torch_dtype=torch.float16,
-            use_safetensors=True,
-        )
-        pipe.scheduler = EulerAncestralDiscreteScheduler.from_config(pipe.scheduler.config)
-
-        pipe.load_lora_weights("prithivMLmods/Canopus-Realism-LoRA", weight_name="Canopus-Realism-LoRA.safetensors", adapter_name="rlms")
-        pipe.set_adapters("rlms")
-        pipe.to("cuda")
-    else:
-        print("Using CPU")
-        pipeline = StableDiffusionPipeline.from_pretrained(
-            repo_id,
-            torch_dtype=torch.float32,
-            use_safetensors=True,
-        )
-
-    for _ in range(NUM_ITERS_TO_RUN):
-        images = pipeline(
-            prompt,
-            num_inference_steps=NUM_INFERENCE_STEPS,
-            generator=generator,
-            num_images_per_prompt=NUM_IMAGES_PER_PROMPT,
-        ).images'''
+    
     end = time.time()
     return upscaled_image, start, end
