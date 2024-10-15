@@ -40,7 +40,7 @@ To run this app locally, follow these steps:
 Real-time inferencing on limited compute resources is a significant challenge. Optimizing the performance and ensuring smooth user experience remains a priority.
 
 ## Acknowledgements
-A special thanks to **Zhenna Lu** for the inspiration throughout this project! 🙏
+A special thanks to **Zhenna Lu** for the inspiration throughout this project! 
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or suggestions.
