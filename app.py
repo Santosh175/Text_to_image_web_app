@@ -13,7 +13,7 @@ def app():
     )
 
     option = st.selectbox(
-        "Select model (in order of processing time)",
+        "Select model ",
         (
         "mukaist/DALLE-4K",    
         "prithivMLmods/Canopus-Realism-LoRA",
